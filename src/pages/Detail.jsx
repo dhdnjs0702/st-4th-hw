@@ -1,7 +1,6 @@
 import React from "react";
 import { useNavigate, useLocation, Link, useParams } from "react-router-dom";
 const Detail = () => {
-  const navigate = useNavigate();
   const location = useLocation();
   const params = useParams();
   console.log("params_id->", params.id);
